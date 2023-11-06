@@ -1,0 +1,44 @@
+body{
+    background-color: #0a192f;
+    color: #ccd6f6;
+    margin: 0 12%;
+}
+.discription {
+    text-align: center;
+    margin: 10px;
+}
+
+.discription > h2 {
+    margin: 0px;
+}
+.discription > p {
+    margin: 0px;
+}
+.folder {
+    height: 70px;
+    width: 70px;
+}
+.sub-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f-item{
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+    margin: 6px;
+    background-color: #112240;
+}
+
+.item > p {
+    font-size: 14px;
+}
+
+.t-stack-list {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: aqua;
+}
